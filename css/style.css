@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap');
 
 * {
     margin: 0;
@@ -40,8 +40,29 @@ header div a:hover {
 }
 
 #wrapper img {
-    width: 35%;
+    width: 25%;
     border-radius: 50%;
     border: 3px solid #50fa7b;
     margin: 30px 0;
+}
+
+#wrapper h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#wrapper h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+#wrapper p {
+    max-width: 250px;
+    margin: 30px auto;
+    font-size: 24px;
+    line-height: 30px;
 }
