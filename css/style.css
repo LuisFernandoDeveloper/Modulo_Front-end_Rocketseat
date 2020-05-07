@@ -74,3 +74,23 @@ header {
 #links-footer a {
     border-bottom: 1px solid #50fa7b;
 }
+
+/* === CARDS === */
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #7159C1;
+}
+
+.card_image-container img {
+    width: 100%;
+}
+
+.card_content,
+.card_info {
+    padding: 24px;
+}
